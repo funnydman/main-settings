@@ -20,3 +20,5 @@
  
  ## Pycharm 
  * Save Action(plugin)
+## Ubuntu 18.04
+* nautilus
