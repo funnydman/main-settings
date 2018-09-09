@@ -25,3 +25,4 @@
  * makefile
 ## Ubuntu 18.04
 * nautilus
+* hardinfo
