@@ -1,5 +1,14 @@
 set number
-filetype on
 syntax on
-set listchars=space:·
-set list
+set tabstop=4
+set shiftwidth=4
+" To keep vim from converting eight spaces into tabs
+set expandtab
+retab
+set autoindent
+set cindent
+" se mouse+=a
+set colorcolumn=110
+highlight ColorColumn ctermbg=darkgray
+
+au FileType asm setlocal ft=nasm
