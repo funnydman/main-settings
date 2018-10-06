@@ -23,6 +23,8 @@
  
  ## Clion
  * makefile
+ * nasm plugin
+ 
 ## Ubuntu 18.04
 * nautilus
 * hardinfo
