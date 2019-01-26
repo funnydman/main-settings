@@ -6,8 +6,10 @@
 * main crazy ing
 * google translate
 * pocket
-* visual yandex bookmarks
+* speed dial 
 * Google Search navigator
+* Grammarly
+
 
 ## Sublime3 extensions
 
