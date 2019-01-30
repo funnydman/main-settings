@@ -9,6 +9,8 @@
 * speed dial 
 * Google Search navigator
 * Grammarly
+* Web Search Navigator
+* Checker plus fro Gmail
 
 
 ## Sublime3 extensions
