@@ -32,3 +32,4 @@
 ## Ubuntu 18.04
 * nautilus
 * hardinfo
+* (xsel) a command-line tool to access X clipboard and selection buffers
