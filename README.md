@@ -34,6 +34,10 @@
  * makefile
  * nasm plugin
  
+ Interesting lectures about jetbrains' IDEs:
+ https://blog.jetbrains.com/idea/2015/10/intellij-idea-tips-and-tricks/
+ https://www.youtube.com/watch?v=upgjCMHGpwo
+ 
 ## Ubuntu 18.04
 * nautilus
 * hardinfo
