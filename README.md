@@ -24,6 +24,11 @@
  
  ## Pycharm 
  * Save Action(plugin)
+ * Key promoter
+ * extra icons
+ * string manipulation
+ * AceJump
+ * Grep Console
  
  ## Clion
  * makefile
