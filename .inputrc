@@ -1,0 +1,7 @@
+# to include default stuff -> not included by default
+$include /etc/inputrc
+# this info got from official ubuntu guide
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\e[C": forward-char
+"\e[D": backward-char
