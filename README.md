@@ -29,7 +29,8 @@
  * string manipulation
  * AceJump
  * Grep Console
- 
+ * shellcheck
+
  ## Clion
  * makefile
  * nasm plugin
