@@ -67,3 +67,8 @@ If you want to copy the text from a file named `file_name` from the current work
 or, simple:
 
     xsel -b < file_n
+
+
+Enable led when caps is used for layout switching:
+`setxkbmap -layout 'us,ru' -option 'grp:caps_toggle,grp_led:caps'`
+
