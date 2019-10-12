@@ -11,6 +11,7 @@
 * Grammarly
 * Web Search Navigator
 * Checker plus fro Gmail
+* Octotree
 
 
 ## Sublime3 extensions
