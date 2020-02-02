@@ -31,6 +31,7 @@
  * AceJump
  * Grep Console
  * shellcheck
+ * Code Glance
 
  ## Clion
  * makefile
