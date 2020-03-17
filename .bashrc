@@ -58,12 +58,12 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+    # We have color support; assume it's compliant with Ecma-48
+    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+    # a case would tend to support setf rather than setaf.)
+    color_prompt=yes
     else
-	color_prompt=
+    color_prompt=
     fi
 fi
 
@@ -187,3 +187,16 @@ function makezip() { zip -r "${1%%/}.zip" "$1" ; }
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/dzmitry/.sdkman"
 [[ -s "/home/dzmitry/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dzmitry/.sdkman/bin/sdkman-init.sh"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/dzmitry/google-cloud-sdk/path.bash.inc' ]; then . '/home/dzmitry/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+#if [ -f '/home/dzmitry/google-cloud-sdk/completion.bash.inc' ]; then . '/home/dzmitry/google-cloud-sdk/completion.bash.inc'; fi
+
+
+# some stuff here 
+if type nvim > /dev/null 2>&1; then
+  alias vim='nvim'
+fi
+
