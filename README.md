@@ -1,5 +1,6 @@
 # settings
 
+# outdated I switched to arch/i3 usage, here is configs https://github.com/funnydman/my-dot-files
 ## Google extensions 
 
 * adblock
